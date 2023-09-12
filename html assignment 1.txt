@@ -1,0 +1,36 @@
+2) Explain the purpose of comments in HTML an provide an example of how to use comments in an html document?
+Ans - Comment tags in HTML are used to provide non-visible information or explanations within the code. 
+         Comments are ignored by web browsers when rendering a web page, so they are not displayed.
+         HTML comments are enclosed within <!-- and --> tags. Anything between these tags is considered a comment and is not rendered by the browser.
+ Ex:- <!DOCTYPE html>
+         <html lang="en">
+         <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Document</title>
+         </head>
+         <body>
+                 <!-- This all are HTML heading tag used to mark up a webpage -->
+                 <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, ut!</h1>
+                 <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, eligendi.</h2>
+                 <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, aliquid.</h3>
+                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ea!</h4>
+                 <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, iusto?</h5>
+                 <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, dolore.</h6>
+         </body>
+         </html>
+
+4) Write a short note on Tag and element with an example?
+Ans - An HTML tag is a set of characters enclosed in angle brackets (<>). 
+         Tags are used to define various elements and components on a web page.
+  Ex:- <p> , <h1>, <h2>, <br>
+         An HTML element consists of an opening tag and a closing tag. 
+         Elements are used to structure and define the content on a web page.
+         The opening tag contains the name of the element and may include attributes that provide additional information or properties to the element.
+         The closing tag is the same as the opening tag but with a forward slash before the element name.
+
+5) What is the DOCTYPE Declaration in HTML?
+Ans - The DOCTYPE declaration, commonly referred to as the "DOCTYPE," is an important declaration at the very beginning of an HTML document. 
+          Its primary purpose is to specify the type of document and HTML version in which the document is written. 
+          The DOCTYPE declaration instructs web browsers and other applications on how to appropriately interpret and produce HTML content.
+          
