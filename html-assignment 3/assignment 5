@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html-assignment 3</title>
+</head>
+<body>
+    <form action="" method="get">
+        <label for="firstname">firstname: 
+            <input type="text" name="firstname" placeholder="any name" id="firstname" required minlength="5" max="30">
+            </label>
+            <br>
+            <label for="lastname">lastname: 
+                <input type="text" name="lastname" placeholder="surname" id="lastname" required minlength="5" max="30">
+            </label>
+            <br>
+            <label for="email">email: 
+                <input type="email" name="email" placeholder="john@doe.com" id="email" required>
+            </label>
+            <br>
+            <label for="password">password: 
+                <input type="password" name="password" placeholder="********" id="password" required min="8">
+            </label>
+            <br>
+            <label for="confirmpassword">confirm password: 
+                <input type="password" name="confirmpassword" placeholder="********" id="confirmpassword" required>
+            </label>
+            <br>
+            <label for="age">age: 
+                <input type="number" name="age" placeholder="35" id="age" required min="0" max="150">
+            </label>
+            <br>
+            <label for="">gender: 
+                <input type="radio" name="gender" id="male" value="male" checked>
+                <label for="male">male</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">female</label>
+                <input type="radio" name="gender" id="other" value="other">
+                <label for="other">other</label>
+            </label>
+            <br>
+            <label for="terms">terms: 
+                <input type="checkbox" id="terms" required> i agree to the terms and conditions
+            </label>
+            <br>
+            <button type="submit">register</button>
+    </form>
+</body>
+</html>
