@@ -1,1 +1,13 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html-assignment 3</title>
+</head>
+<body>
+    <audio src="https://www.learningcontainer.com/wp-content/uploads/2020/02/Kalimba.mp3" controls>Audio</audio>
+    
+    <video controls src="./sample-5s.mp4"></video>
+</body>
+</html>
