@@ -1,1 +1,14 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html-assignment 3</title>
+</head>
+<body>
+    <img src="https://dummyimage.com/500x400" alt="Dummy image 1">
+    <img src="https://dummyimage.com/300x400" alt="Dummy image 2">
+    <img src="https://dummyimage.com/300x400" alt="Dummy image 3">
+    <img src="https://dummyimage.com/200x500" alt="Dummy image 4">
+    <img src="https://dummyimage.com/600x400" alt="Dummy image 5">
+</html>
